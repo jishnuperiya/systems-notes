@@ -13,15 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "strategy/notes.md",
+                "file": "03_Design_Patterns/Strategy Pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "notes"
+              "title": "Strategy Pattern"
+            }
+          },
+          {
+            "id": "4a3b2a815c61f963",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Daily/2026-04-10.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-10"
+            }
+          },
+          {
+            "id": "af8abef594f0e96f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Daily/2026-04-11.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-11"
+            }
+          },
+          {
+            "id": "6267ee6efaaad690",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Daily/2026-04-11.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-11"
+            }
+          },
+          {
+            "id": "5c30a824f48d77e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Daily/2026/week 17/2026-04-20.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-20"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -94,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "strategy/notes.md",
+                "file": "00_Daily/2026-04-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf notes"
+              "title": "Rückverweise auf 2026-04-10"
             }
           },
           {
@@ -113,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "strategy/notes.md",
+                "file": "00_Daily/2026-04-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von notes öffnen"
+              "title": "Ausgehende Links von 2026-04-10 öffnen"
             }
           },
           {
@@ -156,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "strategy/notes.md",
+                "file": "00_Daily/2026-04-10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von notes"
+              "title": "Gliederung von 2026-04-10"
             }
           }
         ]
@@ -183,9 +240,42 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "9734f445dde0179d",
+  "active": "5c30a824f48d77e0",
   "lastOpenFiles": [
-    "strategy/notes.md",
-    "strategy"
+    "01_Notes/02_Visitor Design Pattern.md",
+    "01_Notes/02_vtable.md",
+    "01_Notes/01_segmentation fault.md",
+    "01_Notes/01_Function Pointer.md",
+    "01_Notes/00_Strategy Pattern.md",
+    "00_Daily/2026/week 17/2026-04-19.md",
+    "Unbenannt 1.base",
+    "Unbenannt.base",
+    "01_Notes/02_full memory picture.md",
+    "03_RoadMap/Effective C++.md",
+    "00_Daily/2026/week 17/2026-04-20.md",
+    "01_Notes/01_Type Traits.md",
+    "01_Notes/00_std function.md",
+    "01_Notes/01_meta pogramming utilities.md",
+    "01_Notes/01_function callback.md",
+    "01_Notes/00_Filter utility using - Gof DP + std funtion+ templates.md",
+    "01_Notes/01_EffectiveCpp_Item30.md",
+    "00_Daily/2026/week 17/Weekly Review.md",
+    "03_RoadMap/Design Patterns.md",
+    "03_RoadMap/DSA.md",
+    "00_Daily/Template.md",
+    "04_Templates/Effective C++.md",
+    "04_Templates/DSA Patterns.md",
+    "04_Templates/Design Patterns.md",
+    "04_Templates/C++ Topics.md",
+    "00_Daily/old/2026-04-15.md",
+    "00_Daily/old/2026-04-14.md",
+    "02_Cpp_Examples",
+    "01_Notes/Concepts",
+    "00_Daily/2026/week 17",
+    "00_Daily/2026",
+    "00_Daily/old",
+    "04_Templates",
+    "03_RoadMap",
+    "05_Sunday_Reflections"
   ]
 }

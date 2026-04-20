@@ -1,40 +1,20 @@
 
-# Quick Refresher(if you are familiar with the pattern)
+### Summary
 
-entire pattern — 3 things:
+**behavioural pattern** 
 
-1. **Interface** — `Strategy` with a virtual method
-2. **Concrete classes** — `StrategyA`, `StrategyB` implement it differently
-3. **Context** — holds a strategy and calls it, without knowing which one it is
+short summary: **interchangeable behaviour**
 
-# The concept
+- classic GoF strategy - runtime swapping
+	- using base classes and virtual functions
+- modern c++ : gof / templates (compiletime) / std::fucntion (runtime)
+
+**in my words**: when you have one goal and multiple ways to achieve it, you can use strategy pattern which describe how we can design programs that require interchangeable behaviour. the behaviour can be swapped at runtime (gof style or moden c++ style (std function)) or compile time(templates)
+
+**The concept**
 
 When you have **one goal** but **multiple ways** to achieve it
 Instead of writing massive block of if/else statements, you plug in the specific "strategy" you need at runtime
-
-# Real World Analogy: Navigating Maps
-
-Buidling a GPS map
-goal : go from A  to B
-multiple ways to achieve it (strategies) :
-- strategy A : walking (shortcut through parks)
-- strategy B: driving (prefer highways)
-- strategy C: public transit (follow bus/train schedules)
-
-The **goal** is one, but algorithm changes based on the user choice
-
-# Implementation Before knowing this pattern
-
-```cpp
-function buildRoute(transportType)
-{
-if(tarnsportType == 'walking') { /* 50 lines of walking logic*/}
-elseif(transportType == 'driving') { /* 50 lines of traffic logic*/}
-// becomes a nightmare to maintain!
-}
-```
-
-## Structure
 
 There are three key players:
 
@@ -45,7 +25,29 @@ There are three key players:
 **Concrete Strategies** — the actual implementations of the algorithm (e.g., `CarRoute`, `BikeRoute`, `WalkRoute`)
 
 
-# Example in C++
+### example: GPS map example
+
+Buidling a GPS map
+goal : go from A  to B
+multiple ways to achieve it (strategies) :
+- strategy A : walking (shortcut through parks)
+- strategy B: driving (prefer highways)
+- strategy C: public transit (follow bus/train schedules)
+
+The **goal** is one, but algorithm changes based on the user choice
+
+**impl before knowing the pattern**
+
+```cpp
+function buildRoute(transportType)
+{
+if(tarnsportType == 'walking') { /* 50 lines of walking logic*/}
+elseif(transportType == 'driving') { /* 50 lines of traffic logic*/}
+// becomes a nightmare to maintain!
+}
+```
+
+**implementation using the strategy pattern**
 
 ```cpp
 #include <iostream>
@@ -97,4 +99,3 @@ int main() {
     ctx.doWork();   // Executing Strategy B
 }
 ```
-
